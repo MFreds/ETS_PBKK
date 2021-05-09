@@ -38,10 +38,12 @@ Partial Class frmmain
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.SalesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(635, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(847, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -49,72 +51,71 @@ Partial Class frmmain
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MedicineToolStripMenuItem, Me.SearchToolStripMenuItem, Me.UserToolStripMenuItem, Me.UserToolStripMenuItem1, Me.ToolStripMenuItem1, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'MedicineToolStripMenuItem
         '
         Me.MedicineToolStripMenuItem.Name = "MedicineToolStripMenuItem"
-        Me.MedicineToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.MedicineToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.MedicineToolStripMenuItem.Text = "Menu Obat"
         '
         'SearchToolStripMenuItem
         '
         Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
-        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.SearchToolStripMenuItem.Text = "Pencarian"
         '
         'UserToolStripMenuItem
         '
         Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(159, 6)
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(195, 6)
         '
         'UserToolStripMenuItem1
         '
         Me.UserToolStripMenuItem1.Name = "UserToolStripMenuItem1"
-        Me.UserToolStripMenuItem1.Size = New System.Drawing.Size(162, 22)
+        Me.UserToolStripMenuItem1.Size = New System.Drawing.Size(198, 26)
         Me.UserToolStripMenuItem1.Text = "Menu Pengguna"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(159, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(195, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
         Me.ExitToolStripMenuItem.Text = "Keluar"
         '
         'SalesToolStripMenuItem
         '
         Me.SalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CashRegistryToolStripMenuItem, Me.SalesReportToolStripMenuItem})
         Me.SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
-        Me.SalesToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.SalesToolStripMenuItem.Size = New System.Drawing.Size(86, 24)
         Me.SalesToolStripMenuItem.Text = "Penjualan"
         '
         'CashRegistryToolStripMenuItem
         '
         Me.CashRegistryToolStripMenuItem.Name = "CashRegistryToolStripMenuItem"
-        Me.CashRegistryToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.CashRegistryToolStripMenuItem.Size = New System.Drawing.Size(243, 26)
         Me.CashRegistryToolStripMenuItem.Text = "Pencatatan Uang Tunai"
         '
         'SalesReportToolStripMenuItem
         '
-        Me.SalesReportToolStripMenuItem.Enabled = False
         Me.SalesReportToolStripMenuItem.Name = "SalesReportToolStripMenuItem"
-        Me.SalesReportToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.SalesReportToolStripMenuItem.Size = New System.Drawing.Size(243, 26)
         Me.SalesReportToolStripMenuItem.Text = "Laporan Penjualan"
-        Me.SalesReportToolStripMenuItem.Visible = False
         '
         'frmmain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(635, 321)
+        Me.ClientSize = New System.Drawing.Size(847, 395)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmmain"
         Me.Text = "POS Apotek"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
