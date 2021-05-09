@@ -74,7 +74,7 @@ Partial Class frmqty
         Me.GroupBox1.Size = New System.Drawing.Size(254, 136)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Description :"
+        Me.GroupBox1.Text = "Deskripsi :"
         '
         'GroupBox3
         '
@@ -85,7 +85,7 @@ Partial Class frmqty
         Me.GroupBox3.Size = New System.Drawing.Size(98, 52)
         Me.GroupBox3.TabIndex = 13
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Available :"
+        Me.GroupBox3.Text = "Tersedia :"
         '
         'TextBox3
         '
@@ -107,7 +107,7 @@ Partial Class frmqty
         Me.GroupBox2.Size = New System.Drawing.Size(143, 52)
         Me.GroupBox2.TabIndex = 12
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Price :"
+        Me.GroupBox2.Text = "Harga :"
         '
         'TextBox2
         '

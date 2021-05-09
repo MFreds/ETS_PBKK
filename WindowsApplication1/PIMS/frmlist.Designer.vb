@@ -40,7 +40,7 @@ Partial Class frmlist
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -55,9 +55,9 @@ Partial Class frmlist
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(226, 32)
+        Me.Label2.Size = New System.Drawing.Size(359, 32)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "MEDICINE LIST"
+        Me.Label2.Text = "Daftar Obat-Obatan"
         '
         'Panel2
         '
@@ -78,7 +78,7 @@ Partial Class frmlist
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(73, 46)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "ADD STOCK"
+        Me.Button2.Text = "Tambah Stok Obat"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
@@ -88,14 +88,14 @@ Partial Class frmlist
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(73, 46)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "EDIT MEDICINE"
+        Me.Button1.Text = "Ubah Data Obat"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Panel3
         '
         Me.Panel3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel3.Controls.Add(Me.ListView1)
         Me.Panel3.Location = New System.Drawing.Point(7, 57)
@@ -106,12 +106,13 @@ Partial Class frmlist
         'ListView1
         '
         Me.ListView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(3, 3)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(448, 299)
@@ -126,19 +127,19 @@ Partial Class frmlist
         '
         'ColumnHeader2
         '
-        Me.ColumnHeader2.Text = "Description"
+        Me.ColumnHeader2.Text = "Deskripsi Obat"
         Me.ColumnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ColumnHeader2.Width = 280
+        Me.ColumnHeader2.Width = 248
         '
         'ColumnHeader3
         '
-        Me.ColumnHeader3.Text = "Sell Price"
+        Me.ColumnHeader3.Text = "Harga Jual Satuan (Rp. )"
         Me.ColumnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ColumnHeader3.Width = 80
+        Me.ColumnHeader3.Width = 139
         '
         'ColumnHeader4
         '
-        Me.ColumnHeader4.Text = "Stocks"
+        Me.ColumnHeader4.Text = "Stok Obat"
         Me.ColumnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frmlist
@@ -152,7 +153,7 @@ Partial Class frmlist
         Me.Controls.Add(Me.Panel1)
         Me.Name = "frmlist"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Medicine List"
+        Me.Text = "Daftar Obat-Obatan"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)

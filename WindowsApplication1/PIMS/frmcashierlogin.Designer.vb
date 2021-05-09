@@ -39,7 +39,7 @@ Partial Class frmcashierlogin
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(43, 127)
+        Me.TextBox2.Location = New System.Drawing.Point(93, 112)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(192, 21)
@@ -50,7 +50,7 @@ Partial Class frmcashierlogin
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(43, 85)
+        Me.ComboBox1.Location = New System.Drawing.Point(93, 70)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(192, 21)
         Me.ComboBox1.TabIndex = 4
@@ -60,16 +60,16 @@ Partial Class frmcashierlogin
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(40, 67)
+        Me.Label1.Location = New System.Drawing.Point(90, 52)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(47, 15)
+        Me.Label1.Size = New System.Drawing.Size(44, 15)
         Me.Label1.TabIndex = 24
-        Me.Label1.Text = "Name :"
+        Me.Label1.Text = "Nama:"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(43, 85)
+        Me.TextBox1.Location = New System.Drawing.Point(93, 70)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(177, 21)
         Me.TextBox1.TabIndex = 25
@@ -79,7 +79,7 @@ Partial Class frmcashierlogin
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(40, 109)
+        Me.Label2.Location = New System.Drawing.Point(90, 94)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(67, 15)
         Me.Label2.TabIndex = 26
@@ -89,32 +89,32 @@ Partial Class frmcashierlogin
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(43, 154)
+        Me.Button1.Location = New System.Drawing.Point(93, 138)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(88, 25)
         Me.Button1.TabIndex = 27
-        Me.Button1.Text = "Log In"
+        Me.Button1.Text = "Masuk"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(147, 154)
+        Me.Button2.Location = New System.Drawing.Point(197, 138)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(88, 25)
         Me.Button2.TabIndex = 28
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "Batalkan"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.RoyalBlue
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(273, 52)
+        Me.Panel1.Size = New System.Drawing.Size(375, 52)
         Me.Panel1.TabIndex = 29
         '
         'Label3
@@ -124,28 +124,29 @@ Partial Class frmcashierlogin
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(12, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(249, 31)
+        Me.Label3.Size = New System.Drawing.Size(288, 31)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "CASHIER LOG IN"
+        Me.Label3.Text = "Masuk Sebagai Kasir"
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel2.BackColor = System.Drawing.Color.RoyalBlue
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 233)
+        Me.Panel2.Location = New System.Drawing.Point(0, 200)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(273, 15)
+        Me.Panel2.Size = New System.Drawing.Size(375, 15)
         Me.Panel2.TabIndex = 30
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.White
+        Me.Button3.BackColor = System.Drawing.Color.MediumBlue
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(93, 185)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button3.Location = New System.Drawing.Point(93, 169)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(88, 25)
+        Me.Button3.Size = New System.Drawing.Size(192, 25)
         Me.Button3.TabIndex = 28
-        Me.Button3.Text = "Admin"
+        Me.Button3.Text = "Masuk Sebagai Admin"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'frmcashierlogin
@@ -153,7 +154,7 @@ Partial Class frmcashierlogin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.ClientSize = New System.Drawing.Size(273, 248)
+        Me.ClientSize = New System.Drawing.Size(375, 215)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button3)
@@ -166,7 +167,7 @@ Partial Class frmcashierlogin
         Me.Controls.Add(Me.ComboBox1)
         Me.Name = "frmcashierlogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Log In"
+        Me.Text = "Masuk"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)

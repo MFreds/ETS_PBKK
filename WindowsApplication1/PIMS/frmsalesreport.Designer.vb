@@ -54,9 +54,9 @@ Partial Class frmsalesreport
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(234, 31)
+        Me.Label2.Size = New System.Drawing.Size(222, 31)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "SALES REPORT"
+        Me.Label2.Text = "Menu Penjualan"
         '
         'Panel2
         '
@@ -78,7 +78,7 @@ Partial Class frmsalesreport
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(73, 46)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "PRINT MONTH"
+        Me.Button2.Text = "Cetak Bulanan"
         Me.Button2.UseVisualStyleBackColor = False
         Me.Button2.Visible = False
         '
@@ -90,13 +90,13 @@ Partial Class frmsalesreport
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(73, 46)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "PRINT DATE"
+        Me.Button1.Text = "Cetak Tanggal"
         Me.Button1.UseVisualStyleBackColor = False
         Me.Button1.Visible = False
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -160,13 +160,13 @@ Partial Class frmsalesreport
         '
         'ColumnHeader2
         '
-        Me.ColumnHeader2.Text = "Description"
+        Me.ColumnHeader2.Text = "Diskripsi"
         Me.ColumnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader2.Width = 260
         '
         'ColumnHeader3
         '
-        Me.ColumnHeader3.Text = "Price"
+        Me.ColumnHeader3.Text = "Harga Satuan"
         Me.ColumnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.ColumnHeader3.Width = 80
         '
@@ -177,7 +177,7 @@ Partial Class frmsalesreport
         '
         'ColumnHeader5
         '
-        Me.ColumnHeader5.Text = "Total"
+        Me.ColumnHeader5.Text = "Harga Total"
         Me.ColumnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.ColumnHeader5.Width = 80
         '
@@ -185,33 +185,33 @@ Partial Class frmsalesreport
         '
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(240, 6)
+        Me.Label5.Location = New System.Drawing.Point(298, 7)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(71, 15)
         Me.Label5.TabIndex = 43
-        Me.Label5.Text = "YEAR"
+        Me.Label5.Text = "Tahun"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label4
         '
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(187, 6)
+        Me.Label4.Location = New System.Drawing.Point(118, 7)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(52, 15)
         Me.Label4.TabIndex = 42
-        Me.Label4.Text = "DAY"
+        Me.Label4.Text = "Tanggal"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label3
         '
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(78, 6)
+        Me.Label3.Location = New System.Drawing.Point(180, 7)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(110, 15)
         Me.Label3.TabIndex = 41
-        Me.Label3.Text = "MONTH"
+        Me.Label3.Text = "Bulan"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ComboBox3
@@ -220,7 +220,7 @@ Partial Class frmsalesreport
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"2013"})
-        Me.ComboBox3.Location = New System.Drawing.Point(243, 24)
+        Me.ComboBox3.Location = New System.Drawing.Point(301, 25)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(68, 21)
         Me.ComboBox3.TabIndex = 40
@@ -230,8 +230,8 @@ Partial Class frmsalesreport
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
-        Me.ComboBox2.Location = New System.Drawing.Point(190, 24)
+        Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
+        Me.ComboBox2.Location = New System.Drawing.Point(121, 25)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(47, 21)
         Me.ComboBox2.TabIndex = 39
@@ -242,7 +242,7 @@ Partial Class frmsalesreport
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"})
-        Me.ComboBox1.Location = New System.Drawing.Point(81, 24)
+        Me.ComboBox1.Location = New System.Drawing.Point(183, 25)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(103, 21)
         Me.ComboBox1.TabIndex = 38
@@ -254,9 +254,9 @@ Partial Class frmsalesreport
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(8, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(67, 15)
+        Me.Label1.Size = New System.Drawing.Size(107, 15)
         Me.Label1.TabIndex = 37
-        Me.Label1.Text = "Report for :"
+        Me.Label1.Text = "Tanggal Laporan :"
         '
         'frmsalesreport
         '

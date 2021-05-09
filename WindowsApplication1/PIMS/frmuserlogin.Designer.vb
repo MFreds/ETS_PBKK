@@ -36,7 +36,7 @@ Partial Class frmuserlogin
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -51,9 +51,9 @@ Partial Class frmuserlogin
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(12, 9)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(206, 31)
+        Me.Label3.Size = New System.Drawing.Size(298, 31)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "LA FARMACIA"
+        Me.Label3.Text = "Masuk sebagai Admin"
         '
         'Button2
         '
@@ -63,7 +63,7 @@ Partial Class frmuserlogin
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(88, 25)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "Batalkan"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
@@ -74,7 +74,7 @@ Partial Class frmuserlogin
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(88, 25)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Log In"
+        Me.Button1.Text = "Masuk"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'TextBox1
@@ -118,13 +118,14 @@ Partial Class frmuserlogin
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.White
+        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(210, 172)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button3.Location = New System.Drawing.Point(156, 172)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(88, 25)
+        Me.Button3.Size = New System.Drawing.Size(192, 25)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Cashier"
+        Me.Button3.Text = "Masuk sebagai Kasir"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'frmuserlogin

@@ -35,8 +35,7 @@ Partial Class frmcashregistry
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader10 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader21 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -129,9 +128,9 @@ Partial Class frmcashregistry
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(4, 148)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(142, 15)
+        Me.Label2.Size = New System.Drawing.Size(324, 15)
         Me.Label2.TabIndex = 29
-        Me.Label2.Text = "[Enter] to add item to cart"
+        Me.Label2.Text = "[Enter] untuk menambahkan item ke dalam Daftar Belanja"
         '
         'Label1
         '
@@ -140,9 +139,9 @@ Partial Class frmcashregistry
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(4, 7)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 15)
+        Me.Label1.Size = New System.Drawing.Size(58, 15)
         Me.Label1.TabIndex = 27
-        Me.Label1.Text = "[F6] Search :"
+        Me.Label1.Text = "[F6] Cari :"
         '
         'TextBox1
         '
@@ -158,7 +157,7 @@ Partial Class frmcashregistry
         '
         Me.ListView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader9, Me.ColumnHeader10})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader21})
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
@@ -177,34 +176,30 @@ Partial Class frmcashregistry
         '
         'ColumnHeader2
         '
-        Me.ColumnHeader2.Text = "Description"
+        Me.ColumnHeader2.Text = "Deskripsi"
         Me.ColumnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader2.Width = 280
         '
         'ColumnHeader3
         '
-        Me.ColumnHeader3.Text = "Price"
+        Me.ColumnHeader3.Text = "Harga Satuan"
         Me.ColumnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader3.Width = 80
         '
         'ColumnHeader4
         '
-        Me.ColumnHeader4.Text = "Available"
+        Me.ColumnHeader4.Text = "Tersedia"
         Me.ColumnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ColumnHeader5
         '
-        Me.ColumnHeader5.Text = "Expiration"
+        Me.ColumnHeader5.Text = "Kadaluarsa"
         Me.ColumnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader5.Width = 100
         '
-        'ColumnHeader9
+        'ColumnHeader21
         '
-        Me.ColumnHeader9.Width = 1
-        '
-        'ColumnHeader10
-        '
-        Me.ColumnHeader10.Width = 1
+        Me.ColumnHeader21.Text = "Nama"
         '
         'Panel1
         '
@@ -229,11 +224,11 @@ Partial Class frmcashregistry
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Black
-        Me.Label13.Location = New System.Drawing.Point(405, 147)
+        Me.Label13.Location = New System.Drawing.Point(393, 147)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(133, 15)
+        Me.Label13.Size = New System.Drawing.Size(145, 15)
         Me.Label13.TabIndex = 33
-        Me.Label13.Text = "[Delete] to remove item"
+        Me.Label13.Text = "[Delete] menghapus item"
         '
         'Label8
         '
@@ -243,9 +238,9 @@ Partial Class frmcashregistry
         Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(4, 147)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(123, 15)
+        Me.Label8.Size = New System.Drawing.Size(146, 15)
         Me.Label8.TabIndex = 32
-        Me.Label8.Text = "[Enter] to edit quantity"
+        Me.Label8.Text = "[Enter] mengubah jumlah"
         '
         'Label6
         '
@@ -269,7 +264,7 @@ Partial Class frmcashregistry
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(535, 15)
         Me.Label4.TabIndex = 28
-        Me.Label4.Text = "Customer Cart"
+        Me.Label4.Text = "Daftar Belanja"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'ListView3
@@ -296,19 +291,19 @@ Partial Class frmcashregistry
         '
         'ColumnHeader12
         '
-        Me.ColumnHeader12.Text = "Description"
+        Me.ColumnHeader12.Text = "Deskripsi"
         Me.ColumnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader12.Width = 280
         '
         'ColumnHeader13
         '
-        Me.ColumnHeader13.Text = "Price"
+        Me.ColumnHeader13.Text = "Harga"
         Me.ColumnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ColumnHeader13.Width = 80
         '
         'ColumnHeader14
         '
-        Me.ColumnHeader14.Text = "Qty"
+        Me.ColumnHeader14.Text = "Jumlah"
         Me.ColumnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ColumnHeader15
@@ -387,9 +382,9 @@ Partial Class frmcashregistry
         Me.Panel2.Controls.Add(Me.lblcash)
         Me.Panel2.Controls.Add(Me.lbltotal)
         Me.Panel2.Controls.Add(Me.Shape1)
-        Me.Panel2.Location = New System.Drawing.Point(552, 181)
+        Me.Panel2.Location = New System.Drawing.Point(552, 202)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(236, 168)
+        Me.Panel2.Size = New System.Drawing.Size(236, 147)
         Me.Panel2.TabIndex = 39
         '
         'lbltransactionno
@@ -398,7 +393,7 @@ Partial Class frmcashregistry
         Me.lbltransactionno.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lbltransactionno.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbltransactionno.ForeColor = System.Drawing.Color.White
-        Me.lbltransactionno.Location = New System.Drawing.Point(122, 4)
+        Me.lbltransactionno.Location = New System.Drawing.Point(123, 5)
         Me.lbltransactionno.Name = "lbltransactionno"
         Me.lbltransactionno.Size = New System.Drawing.Size(109, 17)
         Me.lbltransactionno.TabIndex = 47
@@ -412,11 +407,11 @@ Partial Class frmcashregistry
         Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.White
-        Me.Label12.Location = New System.Drawing.Point(7, 4)
+        Me.Label12.Location = New System.Drawing.Point(8, 5)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(117, 18)
+        Me.Label12.Size = New System.Drawing.Size(91, 18)
         Me.Label12.TabIndex = 46
-        Me.Label12.Text = "TRANSACTION "
+        Me.Label12.Text = "Transaksi ID"
         '
         'Label7
         '
@@ -425,11 +420,11 @@ Partial Class frmcashregistry
         Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(7, 51)
+        Me.Label7.Location = New System.Drawing.Point(7, 30)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(89, 24)
+        Me.Label7.Size = New System.Drawing.Size(68, 24)
         Me.Label7.TabIndex = 39
-        Me.Label7.Text = "TOTAL :"
+        Me.Label7.Text = "Total :"
         '
         'Label9
         '
@@ -438,11 +433,11 @@ Partial Class frmcashregistry
         Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(7, 74)
+        Me.Label9.Location = New System.Drawing.Point(7, 53)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(78, 24)
+        Me.Label9.Size = New System.Drawing.Size(130, 24)
         Me.Label9.TabIndex = 40
-        Me.Label9.Text = "CASH :"
+        Me.Label9.Text = "Uang Tunai :"
         '
         'Label10
         '
@@ -451,11 +446,11 @@ Partial Class frmcashregistry
         Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(7, 118)
+        Me.Label10.Location = New System.Drawing.Point(7, 97)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(109, 24)
+        Me.Label10.Size = New System.Drawing.Size(120, 24)
         Me.Label10.TabIndex = 41
-        Me.Label10.Text = "CHANGE :"
+        Me.Label10.Text = "Kembalian :"
         '
         'lblchange
         '
@@ -463,7 +458,7 @@ Partial Class frmcashregistry
         Me.lblchange.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lblchange.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblchange.ForeColor = System.Drawing.Color.Lime
-        Me.lblchange.Location = New System.Drawing.Point(104, 117)
+        Me.lblchange.Location = New System.Drawing.Point(104, 96)
         Me.lblchange.Name = "lblchange"
         Me.lblchange.Size = New System.Drawing.Size(123, 24)
         Me.lblchange.TabIndex = 44
@@ -476,7 +471,7 @@ Partial Class frmcashregistry
         Me.lblcash.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lblcash.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblcash.ForeColor = System.Drawing.Color.Lime
-        Me.lblcash.Location = New System.Drawing.Point(108, 73)
+        Me.lblcash.Location = New System.Drawing.Point(108, 52)
         Me.lblcash.Name = "lblcash"
         Me.lblcash.Size = New System.Drawing.Size(119, 24)
         Me.lblcash.TabIndex = 43
@@ -489,7 +484,7 @@ Partial Class frmcashregistry
         Me.lbltotal.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.lbltotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbltotal.ForeColor = System.Drawing.Color.Lime
-        Me.lbltotal.Location = New System.Drawing.Point(108, 49)
+        Me.lbltotal.Location = New System.Drawing.Point(108, 28)
         Me.lbltotal.Name = "lbltotal"
         Me.lbltotal.Size = New System.Drawing.Size(119, 24)
         Me.lbltotal.TabIndex = 42
@@ -502,9 +497,9 @@ Partial Class frmcashregistry
         Me.Shape1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Shape1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Shape1.ForeColor = System.Drawing.Color.White
-        Me.Shape1.Location = New System.Drawing.Point(-1, -1)
+        Me.Shape1.Location = New System.Drawing.Point(-1, 1)
         Me.Shape1.Name = "Shape1"
-        Me.Shape1.Size = New System.Drawing.Size(236, 167)
+        Me.Shape1.Size = New System.Drawing.Size(236, 144)
         Me.Shape1.TabIndex = 45
         '
         'Panel4
@@ -530,7 +525,7 @@ Partial Class frmcashregistry
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(73, 46)
         Me.Button4.TabIndex = 18
-        Me.Button4.Text = "RECEIPT [F12]"
+        Me.Button4.Text = "Cetak [F12]"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
@@ -541,7 +536,7 @@ Partial Class frmcashregistry
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(73, 46)
         Me.Button3.TabIndex = 17
-        Me.Button3.Text = "LOG OUT [ESC]"
+        Me.Button3.Text = "Keluar [ESC]"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
@@ -552,7 +547,7 @@ Partial Class frmcashregistry
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(73, 46)
         Me.Button2.TabIndex = 16
-        Me.Button2.Text = "CASH [F10]"
+        Me.Button2.Text = "Uang [F10]"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
@@ -563,7 +558,7 @@ Partial Class frmcashregistry
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(73, 46)
         Me.Button1.TabIndex = 15
-        Me.Button1.Text = "NEW [HOME]"
+        Me.Button1.Text = "Baru [HOME]"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Timer1
@@ -598,7 +593,7 @@ Partial Class frmcashregistry
         Me.KeyPreview = True
         Me.Name = "frmcashregistry"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "LA FARMACIA"
+        Me.Text = "Aplikasi Kasir Apotek"
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -659,7 +654,6 @@ Partial Class frmcashregistry
     Friend WithEvents lbltransactionno As System.Windows.Forms.Label
     Friend WithEvents ColumnHeader7 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader8 As System.Windows.Forms.ColumnHeader
-    Friend WithEvents ColumnHeader9 As System.Windows.Forms.ColumnHeader
-    Friend WithEvents ColumnHeader10 As System.Windows.Forms.ColumnHeader
     Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents ColumnHeader21 As ColumnHeader
 End Class

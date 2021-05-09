@@ -55,55 +55,57 @@ Partial Class frmmain
         'MedicineToolStripMenuItem
         '
         Me.MedicineToolStripMenuItem.Name = "MedicineToolStripMenuItem"
-        Me.MedicineToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
-        Me.MedicineToolStripMenuItem.Text = "Medicine"
+        Me.MedicineToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.MedicineToolStripMenuItem.Text = "Menu Obat"
         '
         'SearchToolStripMenuItem
         '
         Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
-        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
-        Me.SearchToolStripMenuItem.Text = "Search"
+        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.SearchToolStripMenuItem.Text = "Pencarian"
         '
         'UserToolStripMenuItem
         '
         Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(120, 6)
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(159, 6)
         '
         'UserToolStripMenuItem1
         '
         Me.UserToolStripMenuItem1.Name = "UserToolStripMenuItem1"
-        Me.UserToolStripMenuItem1.Size = New System.Drawing.Size(123, 22)
-        Me.UserToolStripMenuItem1.Text = "User"
+        Me.UserToolStripMenuItem1.Size = New System.Drawing.Size(162, 22)
+        Me.UserToolStripMenuItem1.Text = "Menu Pengguna"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(120, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(159, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.ExitToolStripMenuItem.Text = "Keluar"
         '
         'SalesToolStripMenuItem
         '
         Me.SalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CashRegistryToolStripMenuItem, Me.SalesReportToolStripMenuItem})
         Me.SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
-        Me.SalesToolStripMenuItem.Size = New System.Drawing.Size(45, 20)
-        Me.SalesToolStripMenuItem.Text = "Sales"
+        Me.SalesToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.SalesToolStripMenuItem.Text = "Penjualan"
         '
         'CashRegistryToolStripMenuItem
         '
         Me.CashRegistryToolStripMenuItem.Name = "CashRegistryToolStripMenuItem"
-        Me.CashRegistryToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CashRegistryToolStripMenuItem.Text = "Cash Registry"
+        Me.CashRegistryToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.CashRegistryToolStripMenuItem.Text = "Pencatatan Uang Tunai"
         '
         'SalesReportToolStripMenuItem
         '
+        Me.SalesReportToolStripMenuItem.Enabled = False
         Me.SalesReportToolStripMenuItem.Name = "SalesReportToolStripMenuItem"
-        Me.SalesReportToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SalesReportToolStripMenuItem.Text = "Sales Report"
+        Me.SalesReportToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.SalesReportToolStripMenuItem.Text = "Laporan Penjualan"
+        Me.SalesReportToolStripMenuItem.Visible = False
         '
         'frmmain
         '
@@ -114,7 +116,7 @@ Partial Class frmmain
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmmain"
-        Me.Text = "Pharmacy Inventory Management System"
+        Me.Text = "POS Apotek"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

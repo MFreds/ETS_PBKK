@@ -33,10 +33,10 @@ Partial Class frmcash
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(214, 73)
+        Me.GroupBox4.Size = New System.Drawing.Size(251, 73)
         Me.GroupBox4.TabIndex = 12
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Enter Cash :"
+        Me.GroupBox4.Text = "Masukan Nominal Uang Tunai :"
         '
         'TextBox1
         '
@@ -44,7 +44,7 @@ Partial Class frmcash
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(6, 19)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(200, 44)
+        Me.TextBox1.Size = New System.Drawing.Size(239, 44)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Text = "0.00"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -53,14 +53,14 @@ Partial Class frmcash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(241, 98)
+        Me.ClientSize = New System.Drawing.Size(275, 97)
         Me.Controls.Add(Me.GroupBox4)
         Me.KeyPreview = True
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmcash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "CASH"
+        Me.Text = "Input Uang Tunai"
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.ResumeLayout(False)

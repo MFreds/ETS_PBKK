@@ -8,7 +8,8 @@
 -- PHP Version: 5.3.1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
+CREATE DATABASE fp_pbkk;
+use fp_pbkk;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -16,7 +17,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `pmisdb`
+-- Database: `fp_pbkk`
 --
 
 -- --------------------------------------------------------
@@ -74,6 +75,7 @@ CREATE TABLE IF NOT EXISTS `tblsales` (
 
 
 -- --------------------------------------------------------
+
 
 --
 -- Table structure for table `tbluser`

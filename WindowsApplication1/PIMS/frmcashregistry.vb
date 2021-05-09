@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.Drawing.Printing
 Public Class frmcashregistry
-    Dim farmacia_conn As New MySqlConnection("server=localhost;uid=root;pwd=;database=pmisdb")
+    Dim farmacia_conn As New MySqlConnection("server=localhost;uid=root;pwd=;database=fp_pbkk")
     Dim farmacia_cmd As New MySqlCommand
     Dim farmacia_adp As New MySqlDataAdapter
     Dim farmacia_tbl As New DataTable
@@ -179,7 +179,7 @@ NXT:
         TextBox1.SelectionStart = Len(TextBox1.Text)
         Try
             ListView1.Items.Clear()
-            farmacia_adp.SelectCommand = New MySqlCommand("SELECT * FROM tblproduct WHERE p_desc LIKE '" & TextBox1.Text & "%'", farmacia_conn)
+            farmacia_adp.SelectCommand = New MySqlCommand("SELECT * FROM tblproduct WHERE p_desc LIKE '%" & TextBox1.Text & "%' or p_generic LIKE '%" & TextBox1.Text & "%'", farmacia_conn)
             farmacia_adp.Fill(farmacia_tbl)
             If farmacia_tbl.Rows.Count = 0 Then farmacia_conn.Close() : Exit Sub
 
@@ -301,9 +301,9 @@ NXT:
         Dim str As String
         Dim nctr, xpos, ii, iii As Integer
 
-        e.Graphics.DrawString("La Farmacia", New Font("Times New Roman", 12, FontStyle.Bold), Brushes.Blue, New Point(198, YAxis + 6))
-        e.Graphics.DrawString("7th Avenue Catballogan City, Samar", New Font("Times New Roman", 10, FontStyle.Bold), Brushes.Blue, New Point(140, YAxis + 22))
-        e.Graphics.DrawString("TIN 005-057-119", New Font("Times New Roman", 10, FontStyle.Bold), Brushes.Blue, New Point(192, YAxis + 38))
+        e.Graphics.DrawString("Apotek Suka Maju", New Font("Times New Roman", 12, FontStyle.Bold), Brushes.Blue, New Point(198, YAxis + 6))
+        e.Graphics.DrawString("Jalan Kesehatan, Surabaya", New Font("Times New Roman", 10, FontStyle.Bold), Brushes.Blue, New Point(140, YAxis + 22))
+        'e.Graphics.DrawString("TIN 005-057-119", New Font("Times New Roman", 10, FontStyle.Bold), Brushes.Blue, New Point(192, YAxis + 38))
         e.Graphics.DrawString("_________________________________________________________", New Font("Times New Roman", 12), Brushes.Blue, New Point(5, YAxis + 50))
         e.Graphics.DrawString("_________________________________________________________", New Font("Times New Roman", 12), Brushes.Blue, New Point(5, YAxis + 75))
 
@@ -349,7 +349,7 @@ NXT:
         totaly = totaly + 20
         e.Graphics.DrawString("_________________________________________________________", New Font("Times New Roman", 12), Brushes.Blue, New Point(5, totaly))
         totaly = totaly + 25
-        e.Graphics.DrawString("Total: ", New Font("Times New Roman", 11), Brushes.Blue, New Point(10, totaly))
+        e.Graphics.DrawString("Total: Rp.", New Font("Times New Roman", 11), Brushes.Blue, New Point(10, totaly))
         xpos = 460
         str = Format(Val(lbltotal.Text), "# ##0.00")
         iii = Len(str)

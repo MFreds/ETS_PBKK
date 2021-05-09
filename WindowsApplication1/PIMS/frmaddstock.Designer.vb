@@ -36,7 +36,7 @@ Partial Class frmaddstock
         Me.GroupBox4.Size = New System.Drawing.Size(214, 73)
         Me.GroupBox4.TabIndex = 13
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Enter Quantity"
+        Me.GroupBox4.Text = "Masukan Stok Obat:"
         '
         'TextBox1
         '
@@ -58,7 +58,7 @@ Partial Class frmaddstock
         Me.KeyPreview = True
         Me.Name = "frmaddstock"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form11"
+        Me.Text = "Input Stok Obat"
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.ResumeLayout(False)

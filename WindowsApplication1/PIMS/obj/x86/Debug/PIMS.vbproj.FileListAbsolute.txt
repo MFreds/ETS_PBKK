@@ -112,3 +112,29 @@ C:\Users\Fredi\Desktop\PBKK A\ETS\pharmacy_inventory_vbnet\WindowsApplication1\P
 C:\Users\Fredi\Desktop\PBKK A\ETS\pharmacy_inventory_vbnet\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.exe
 C:\Users\Fredi\Desktop\PBKK A\ETS\pharmacy_inventory_vbnet\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.xml
 C:\Users\Fredi\Desktop\PBKK A\ETS\pharmacy_inventory_vbnet\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.pdb
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\PIMS.exe.config
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\PIMS.exe
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\PIMS.pdb
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\PIMS.xml
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\MySql.Data.DLL
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\Renci.SshNet.dll
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\bin\Debug\Renci.SshNet.xml
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.vbprojAssemblyReference.cache
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmaddstock.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmcash.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmcashierlogin.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmcashregistry.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmlist.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmmain.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmmedicine.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmqty.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmsalesreport.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmuser.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.frmuserlogin.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.vbproj.GenerateResource.cache
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.vbproj.CoreCompileInputs.cache
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.vbproj.CopyComplete
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.exe
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.xml
+D:\ROHMAN\PBKK\ETS_PBKK\WindowsApplication1\PIMS\obj\x86\Debug\PIMS.pdb

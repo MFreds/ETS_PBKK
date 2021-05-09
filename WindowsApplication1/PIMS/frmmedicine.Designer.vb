@@ -62,7 +62,7 @@ Partial Class frmmedicine
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.DarkGreen
+        Me.Panel1.BackColor = System.Drawing.Color.DarkBlue
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -77,9 +77,9 @@ Partial Class frmmedicine
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(237, 32)
+        Me.Label2.Size = New System.Drawing.Size(193, 32)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "MEDICINE INFO"
+        Me.Label2.Text = "Menu Obat"
         '
         'Panel2
         '
@@ -99,22 +99,22 @@ Partial Class frmmedicine
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(3, 146)
+        Me.Button4.Location = New System.Drawing.Point(3, 220)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(73, 46)
         Me.Button4.TabIndex = 18
-        Me.Button4.Text = "CLEAR TEXT"
+        Me.Button4.Text = "Bersihkan Isian"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(3, 98)
+        Me.Button3.Location = New System.Drawing.Point(3, 51)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(73, 46)
         Me.Button3.TabIndex = 17
-        Me.Button3.Text = "MEDICINE LIST"
+        Me.Button3.Text = "Daftar Obat"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
@@ -122,29 +122,30 @@ Partial Class frmmedicine
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Enabled = False
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(3, 51)
+        Me.Button2.Location = New System.Drawing.Point(3, 4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(73, 46)
         Me.Button2.TabIndex = 16
-        Me.Button2.Text = "UPDATE MEDICINE"
+        Me.Button2.Text = "Ubah Data Obat"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.White
+        Me.Button1.BackColor = System.Drawing.Color.Red
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(3, 4)
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button1.Location = New System.Drawing.Point(3, 269)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(73, 46)
         Me.Button1.TabIndex = 15
-        Me.Button1.Text = "SAVE MEDICINE"
+        Me.Button1.Text = "Simpan Data"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Panel3
         '
         Me.Panel3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel3.Controls.Add(Me.TextBox10)
         Me.Panel3.Controls.Add(Me.Label11)
@@ -179,7 +180,7 @@ Partial Class frmmedicine
         'TextBox10
         '
         Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(111, 252)
+        Me.TextBox10.Location = New System.Drawing.Point(165, 249)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.ReadOnly = True
         Me.TextBox10.Size = New System.Drawing.Size(208, 21)
@@ -199,7 +200,7 @@ Partial Class frmmedicine
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(111, 225)
+        Me.TextBox9.Location = New System.Drawing.Point(165, 222)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(208, 21)
         Me.TextBox9.TabIndex = 13
@@ -218,7 +219,7 @@ Partial Class frmmedicine
         'TextBox8
         '
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(111, 198)
+        Me.TextBox8.Location = New System.Drawing.Point(165, 195)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(208, 21)
         Me.TextBox8.TabIndex = 12
@@ -237,7 +238,7 @@ Partial Class frmmedicine
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(111, 92)
+        Me.TextBox4.Location = New System.Drawing.Point(165, 89)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(192, 21)
         Me.TextBox4.TabIndex = 5
@@ -245,7 +246,7 @@ Partial Class frmmedicine
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(111, 39)
+        Me.TextBox2.Location = New System.Drawing.Point(165, 36)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(192, 21)
         Me.TextBox2.TabIndex = 1
@@ -253,7 +254,7 @@ Partial Class frmmedicine
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(111, 66)
+        Me.TextBox3.Location = New System.Drawing.Point(165, 63)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(192, 21)
         Me.TextBox3.TabIndex = 3
@@ -261,7 +262,7 @@ Partial Class frmmedicine
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(111, 118)
+        Me.TextBox5.Location = New System.Drawing.Point(165, 115)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(192, 21)
         Me.TextBox5.TabIndex = 7
@@ -269,7 +270,7 @@ Partial Class frmmedicine
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(111, 145)
+        Me.TextBox6.Location = New System.Drawing.Point(165, 142)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(192, 21)
         Me.TextBox6.TabIndex = 9
@@ -278,7 +279,7 @@ Partial Class frmmedicine
         '
         Me.DateTimePicker1.CustomFormat = "MMMM dd, yyyy"
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(111, 145)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(165, 142)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(208, 20)
         Me.DateTimePicker1.TabIndex = 10
@@ -287,7 +288,7 @@ Partial Class frmmedicine
         '
         Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(111, 118)
+        Me.ComboBox4.Location = New System.Drawing.Point(165, 115)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(208, 21)
         Me.ComboBox4.TabIndex = 8
@@ -297,7 +298,7 @@ Partial Class frmmedicine
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(111, 92)
+        Me.ComboBox3.Location = New System.Drawing.Point(165, 89)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(208, 21)
         Me.ComboBox3.TabIndex = 6
@@ -307,7 +308,7 @@ Partial Class frmmedicine
         Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(111, 66)
+        Me.ComboBox2.Location = New System.Drawing.Point(165, 63)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(208, 21)
         Me.ComboBox2.TabIndex = 4
@@ -317,7 +318,7 @@ Partial Class frmmedicine
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(111, 39)
+        Me.ComboBox1.Location = New System.Drawing.Point(165, 36)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(208, 21)
         Me.ComboBox1.TabIndex = 2
@@ -325,7 +326,7 @@ Partial Class frmmedicine
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(111, 171)
+        Me.TextBox7.Location = New System.Drawing.Point(165, 168)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(208, 21)
         Me.TextBox7.TabIndex = 11
@@ -348,9 +349,9 @@ Partial Class frmmedicine
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(12, 151)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(97, 15)
+        Me.Label7.Size = New System.Drawing.Size(124, 15)
         Me.Label7.TabIndex = 31
-        Me.Label7.Text = "Expiration Date :"
+        Me.Label7.Text = "Tanggal Kadaluarsa :"
         '
         'Label6
         '
@@ -359,9 +360,9 @@ Partial Class frmmedicine
         Me.Label6.ForeColor = System.Drawing.Color.Black
         Me.Label6.Location = New System.Drawing.Point(12, 121)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(61, 15)
+        Me.Label6.Size = New System.Drawing.Size(59, 15)
         Me.Label6.TabIndex = 30
-        Me.Label6.Text = "Category :"
+        Me.Label6.Text = "Kateogri :"
         '
         'Label4
         '
@@ -370,9 +371,9 @@ Partial Class frmmedicine
         Me.Label4.ForeColor = System.Drawing.Color.Black
         Me.Label4.Location = New System.Drawing.Point(12, 97)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(79, 15)
+        Me.Label4.Size = New System.Drawing.Size(49, 15)
         Me.Label4.TabIndex = 29
-        Me.Label4.Text = "Formulation :"
+        Me.Label4.Text = "Resep :"
         '
         'Label5
         '
@@ -381,9 +382,9 @@ Partial Class frmmedicine
         Me.Label5.ForeColor = System.Drawing.Color.Black
         Me.Label5.Location = New System.Drawing.Point(12, 69)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(62, 15)
+        Me.Label5.Size = New System.Drawing.Size(77, 15)
         Me.Label5.TabIndex = 28
-        Me.Label5.Text = "Unit Size :"
+        Me.Label5.Text = "Satuan Unit :"
         '
         'Label3
         '
@@ -392,9 +393,9 @@ Partial Class frmmedicine
         Me.Label3.ForeColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(12, 42)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(93, 15)
+        Me.Label3.Size = New System.Drawing.Size(76, 15)
         Me.Label3.TabIndex = 27
-        Me.Label3.Text = "Generic Name :"
+        Me.Label3.Text = "Nama Obat :"
         '
         'Label1
         '
@@ -403,14 +404,14 @@ Partial Class frmmedicine
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(12, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 15)
+        Me.Label1.Size = New System.Drawing.Size(64, 15)
         Me.Label1.TabIndex = 23
-        Me.Label1.Text = "Description :"
+        Me.Label1.Text = "Deskripsi :"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(111, 13)
+        Me.TextBox1.Location = New System.Drawing.Point(165, 10)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(208, 21)
         Me.TextBox1.TabIndex = 0
