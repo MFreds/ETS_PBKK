@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `tbluser` (
 --
 
 INSERT INTO `tbluser` (`id`, `u_fullname`, `u_password`, `u_type`) VALUES
-(2, 'testrun', '12345', 'cashier');
+(2, 'PBKK', '12345', 'cashier');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
